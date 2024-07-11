@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+#social-section {
+    width: 1920px;
+    height: 671px;
+    /* background-image: linear-gradient(0deg, #D3E0E0, #2c6b6b), url(../assets/social-bg.png);
+    background-position: center;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    width: 1320px;
+    height: 400px;
+}
+
+.heading {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.para-one {
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+
+}
+
+.para-two {
+    /* margin: 20px 0; */
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* box-sizing: border-box; */
+   
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.img-div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.for-flex{
+    display: flex;
+
+}
